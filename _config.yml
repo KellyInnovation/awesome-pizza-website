@@ -1,2 +1,3 @@
 title: Awesome Pizza
 baseurl: /awesome-pizza-website
+<a href="{{ page.url | prepend: site.github.url }}">{{ page.title }}</a>
