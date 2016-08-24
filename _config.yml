@@ -1,3 +1,2 @@
 title: Awesome Pizza
-baseurl: /awesome-pizza-website
-prepend: /awesome-pizza-website 
+baseurl: "/awesome-pizza-website"
