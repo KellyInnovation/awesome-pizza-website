@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: New Pizza with Eggs
 ---
 

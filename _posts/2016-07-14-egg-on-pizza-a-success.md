@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: People like Egg on Pizza
 ---
 

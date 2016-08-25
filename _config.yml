@@ -1,3 +1,5 @@
 title: Awesome Pizza
-baseurl: "/awesome-pizza-website"
-url: "https://kellyinnovation.github.io"
+baseurl: /awesome-pizza-website
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
