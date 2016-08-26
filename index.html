@@ -10,41 +10,83 @@ title: Home
         </p>
     </div>
 </div>
-<div class="container">
-	<div class="row">
-		<div class="col-xs-12">
-			<img class="img-responsive pizza-image" width=1200 src="pizza.jpg" alt="Pizza!" width="700">
-		</div>
-	</div>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active pizza-photo">
+      <img src="pizza.jpg" alt="Featured">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item pizza-photo">
+      <img src="http://cdn.skim.gs/image/upload/v1456342577/msi/pizza-with-crispy-pancetta-spinach-ricotta-and-soft-baked-egg_mjegrc.jpg" alt="New Pizza">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item pizza-photo">
+      <img src="http://www.confessionsofachocoholic.com/wp-content/uploads/2012/04/cheese-pizza.jpg" alt="Classic Cheese">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<div class="contact-info">
 	<div class="row">
 		<div class="col-sm-4">
-			<h2>Address</h2>
-			<address>
-  				<strong>Awesome PIzza</strong><br>
-  				348 East Main St.<br>
-  				Lexington, KY 40507<br>
-  				<abbr title="Phone">P:</abbr> (123) 456-7890
-			</address>
+			<div class="white-card">
+				<h2>Address</h2>
+				<address>
+	  				<strong>Awesome PIzza</strong><br>
+	  				348 East Main St.<br>
+	  				Lexington, KY 40507<br>
+	  				<abbr title="Phone">P:</abbr> (123) 456-7890
+				</address>
+			</div>
 		</div>
 		<div class="col-sm-4">
-			<h2>Social Links</h2>
-			<ul class="list-unstyled social-list">
-				<li>
-					<span class="glyphicon glyphicon-dashboard"></span>
-					<a href="#">@awesome_pizza</a>
-				</li>
-				<li>
-					<span class="glyphicon glyphicon-random"></span>
-					<a href="#">Facebook</a>
-				</li>
-			</ul>
+			<div class="white-card">
+				<h2>Social Links</h2>
+				<ul class="list-unstyled social-list">
+					<li>
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+						<a href="#">@awesome_pizza</a>
+					</li>
+					<li>
+						<i class="fa fa-facebook-official" aria-hidden="true"></i>
+						<a href="#">Facebook</a>
+					</li>
+				</ul>
+			</div>
 		</div>
-		<div class="col-md-4">
-			<h2>Reviews</h2>
-			<blockquote>
-				Pizza is the best!
-				<footer>Nick Such</footer>
-			</blockquote>
+		<div class="col-sm-4">
+			<div class="white-card">
+				<h2>Reviews</h2>
+				<blockquote>
+					Pizza is the best!
+					<footer>Nick Such</footer>
+				</blockquote>
+			</div>
 		</div>
 	</div>
 </div>
